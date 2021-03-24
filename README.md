@@ -5,7 +5,7 @@
 ##% BFS dan DFS
 # Persoalan yang akan kita selesaikan dengan metode BFS dan DFS yaitu
 # Bagaimanakah Aisya akan menuju ke rumah Raisya dengan rute tercepat. Maka disini kita akan
-# mencoba metode BFS dan DFS untuk mengantarkan Aisya menuju rumah Aaisya
+# mencoba metode BFS dan DFS untuk mengantarkan Aisya menuju rumah Raisya
 
 
 # Berikut merupakan root node dari rumah Aisya (A) sampai ke rumah Raisya (K).
@@ -22,7 +22,7 @@ graf =  {'A':set(['B','C','E']),
          'K':set(['D','J'])}
 
 ##%  BFS
-# Maka dengan metode BFS Aisya akan memulai perjalanan menuju rumah Raisya (L) dari root node A ke root note L
+# Maka dengan metode BFS Aisya akan memulai perjalanan menuju rumah Raisya (L) dari root node A ke  note L
 # seperti yang kita ketahui apabila menggunakan metode BFS (Breadth First Search) 
 # metode ini akan mencarikan solusi atau rute tercepat dengan cara mengecek satu persatu cabang sesuai dengan level pada root node/maps
 def bfs(graf, mulai, tujuan):
@@ -65,7 +65,7 @@ def bfs(graf, mulai, tujuan):
 # Masih sama dengan  metode BFS maka DFS pun juga  akan mencari atau menemukan solusi untuk  Aisya yang akan menuju  rumah Raisya 
 # dimulai dari  root node A untuk menuju rumah Aisya  yaitu node terakhir yaitu L
 # seperti yang kita ketahui apabila menggunakan metode DFS (Depth First Search) 
-# maka dalam metode ini akan dicarikan solusi atau rute tercepat dengan cara menegecek satu persatu dengan menurun ke bawah
+# maka dalam metode ini akan dicarikan solusi atau rute tercepat dengan cara mengecek satu persatu dengan menurun ke bawah
 # untuk memeriksa terlebih dahulu semua anak atau turunan dari cabang sebelum beralih ke cabang lain.
 def dfs(graf, mulai,tujuan):
     # mendefinisikan fungsi dfs beserta parameter yaitu graf/node,mulai dan juga tujuan
@@ -96,7 +96,7 @@ engupdate/menambah isi dengan jalur baru dengan cabang
 
             visited.add(state)
 #menandai state yang sudah dikunjugi
-# mengecek isi queue
+# mengecek isi stack
         isi = len(stack)
         if isi == 0:
             print("Tidak ditemukan")
