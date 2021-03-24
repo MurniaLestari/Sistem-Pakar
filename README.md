@@ -4,11 +4,11 @@
 # Kelas : D4 TI 3C
 ##% BFS dan DFS
 # Persoalan yang akan kita selesaikan dengan metode BFS dan DFS yaitu
-# Bagaimanakah Aisya akan menuju ke rumah aisya dengan rute tercepat. Maka disini kita akan
-# mencoba metode BFS dan DFS untuk mengantarkan aisya menuju rumah raisya
+# Bagaimanakah Aisya akan menuju ke rumah Raisya dengan rute tercepat. Maka disini kita akan
+# mencoba metode BFS dan DFS untuk mengantarkan Aisya menuju rumah Aaisya
 
 
-# Berikut merupakan root node dari rumah aisya (A) sampai ke rumah Raisya (K).
+# Berikut merupakan root node dari rumah Aisya (A) sampai ke rumah Raisya (K).
 graf =  {'A':set(['B','C','E']),
          'B':set(['E','D']),
          'C':set(['A','B','D']),
