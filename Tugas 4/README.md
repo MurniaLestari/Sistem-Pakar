@@ -8,7 +8,7 @@ Created on Mon Apr 12 18:04:33 2021
 # NPM : 1184006
 # Kelas D4 TI 3C
 # Kode program ini diambil dari https://lawiraharlan.wordpress.com/2019/10/30/program-rekrutmen-karyawan-dengan-python-metode-fuzzy-sugeno/
-# Kode program dibawah ini menggunakan algoritma fuzzy yang digunakan untuk merekrut pegawai. 
+# Kode program dibawah ini menggunakan algoritma fuzzy sugeno yang digunakan untuk merekrut pegawai. 
 # Perekrutan pegawai didasarkan pada 3 hal yaitu IPK, TOEFL,dan TPA. Apabila,ketiganya memenuhi 
 # kriteria perekrutan pegawai maka output dari kode program ini yaitu lulus,menunggu panggilan atau tidak lulus
 #%%
