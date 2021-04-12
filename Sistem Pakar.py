@@ -4,6 +4,9 @@ Created on Mon Apr 12 10:18:14 2021
 
 @author: ACER
 """
+# Nama : Murnia Lestari
+# NPM : 1184006
+# Kelas : D4 TI 3C
 
 import numpy as np
 import skfuzzy as fuzz
