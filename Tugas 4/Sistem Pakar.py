@@ -13,8 +13,8 @@ import skfuzzy as fuzz
 import matplotlib.pyplot as plt
 #%%
 # Generate semua variabel
-# * Kualitas dan layanan pada rentang subjektif [0, 10]
-# * Tip memiliki rentang [0, 25] dalam satuan poin persentase
+# * IPK  pada rentang subjektif [0, 5]
+# * TOEFL dan TPA memiliki rentang [0, 100,150,200,250,300,350,400,450,500,550,600,650,700,750] dalam satuan poin persentase
 x_ipk = np.arange(0, 5, 1)
 x_toefl = np.arange(300, 630, 1)
 x_tpa  = np.arange(0, 750, 1)
